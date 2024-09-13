@@ -7,7 +7,7 @@ export const PublicRoute = ({ children }) => {
 
     const { logged } = useContext( AuthContext );
     const lastPath = localStorage.getItem( 'lastPath' ) || '/marvel';
-    console.log( lastPath );
+    // console.log( lastPath );
 
     return (
 

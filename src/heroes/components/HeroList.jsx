@@ -5,7 +5,7 @@ import { HeroItem } from './HeroItem';
 
 export const HeroList = ({ publisher }) => {
 
-    console.log( publisher );
+    // console.log( publisher );
     const heroes = useMemo( () => getHeroesByPublisher( publisher ), [ publisher ] );
 
     return (

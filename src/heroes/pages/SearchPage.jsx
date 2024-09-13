@@ -50,7 +50,7 @@ export const SearchPage = () => {
                     <h4>Searching</h4>
                     <hr />
 
-                    <form onSubmit={ onSearchSubmit }>
+                    <form onSubmit={ onSearchSubmit } name="formSearchHero">
                         <input
                             className="form-control" 
                             type="text" 
@@ -76,6 +76,7 @@ export const SearchPage = () => {
                     
                     {/* //* Si no busca nada se mostrara el search alert, caso contrario se oculta. */}
                     <div 
+                        aria-label="alertSearchHero"
                         className="alert alert-primary animate__animated animate__fadeIn" 
                         style={{ display: (showSearchAlert) ? '' : 'none' }}
                     >
@@ -84,6 +85,7 @@ export const SearchPage = () => {
                    
                     {/* //* Si la busqueda no retorna ningun valor se mostrara el error alert, caso contrario se oculta. */}
                     <div 
+                        aria-label="alertDanger"
                         className="alert alert-danger animate__animated animate__fadeIn" 
                         style={{ display: (showErrorAlert) ? '' : 'none' }}
                     >
