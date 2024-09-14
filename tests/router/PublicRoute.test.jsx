@@ -8,18 +8,18 @@ describe( 'Pruebas en <PublicRoute />', () => {
     
     test( 'Debe de mostrar el children si no esta autenticado', () => { 
         
-        // const contextValue = { logged: false }
+        const contextValue = { logged: false }
 
-        // render(
-        //     <AuthContext.Provider value={ contextValue }>
-        //         <PublicRoute>
-        //             <h1>Public Routes</h1>
-        //         </PublicRoute>
-        //     </AuthContext.Provider>
-        // );
+        render(
+            <AuthContext.Provider value={ contextValue }>
+                <PublicRoute>
+                    <h1>Public Routes</h1>
+                </PublicRoute>
+            </AuthContext.Provider>
+        );
 
-        // // screen.debug();
-        // expect( screen.getByText( 'Public Routes' ) ).toBeTruthy();
+        // screen.debug();
+        expect( screen.getByText( 'Public Routes' ) ).toBeTruthy();
         
     });
 

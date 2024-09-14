@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <HeroItem /> Debe de mostrar Hero 1`] = `
+<div>
+  <div
+    class="col mb-1 animate__animated animate__fadeIn"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="row no-gutters"
+      >
+        <div
+          class="col-4"
+        >
+          <img
+            alt="Batman"
+            class="card-img"
+            src="/heroes/dc-batman.jpg"
+          />
+        </div>
+        <div
+          class="col-8"
+        >
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              Batman
+            </h5>
+            <p
+              class="card-text"
+            >
+              Bruce Wayne
+            </p>
+            <p
+              class="card-text"
+            >
+              <small
+                class="text-muted"
+              >
+                Detective Comics #27
+              </small>
+            </p>
+            <a
+              aria-label="moreHero"
+              href="/hero/dc-batman"
+            >
+              more...
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

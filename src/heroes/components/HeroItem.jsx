@@ -52,7 +52,7 @@ export const HeroItem = ({
                                     <small className="text-muted">{ first_appearance }</small>
                                 </p>
 
-                                <Link to={ `/hero/${ id }` }>
+                                <Link aria-label="moreHero" to={ `/hero/${ id }` }>
                                     more...
                                 </Link>
 

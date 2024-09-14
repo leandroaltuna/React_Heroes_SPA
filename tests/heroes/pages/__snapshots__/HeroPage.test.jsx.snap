@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeroPage /> Debe mostrar info del Hero obtenido por url 1`] = `
+<div>
+  <div
+    class="row mt-5"
+  >
+    <div
+      class="col-4 animate__animated animate__fadeInLeft"
+    >
+      <img
+        alt="Flash"
+        class="img-thumbnail"
+        src="/heroes/dc-flash.jpg"
+      />
+    </div>
+    <div
+      class="col-8"
+    >
+      <h3>
+        Flash
+      </h3>
+      <ul
+        class="list-group list-group-flash"
+      >
+        <li
+          class="list-group-item"
+        >
+          <b>
+            Alter Ego:
+          </b>
+           
+          Jay Garrick
+        </li>
+        <li
+          class="list-group-item"
+        >
+          <b>
+            Publisher:
+          </b>
+           
+          DC Comics
+        </li>
+        <li
+          class="list-group-item"
+        >
+          <b>
+            First Appearance:
+          </b>
+           
+          Flash Comics #1
+        </li>
+      </ul>
+      <h5
+        class="mt-3"
+      >
+        Characters:
+      </h5>
+      <p>
+        Jay Garrick, Barry Allen, Wally West, Bart Allen
+      </p>
+      <button
+        class="btn btn-outline-primary"
+      >
+        Back
+      </button>
+    </div>
+  </div>
+</div>
+`;
